@@ -1,0 +1,140 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hola","hi", "Buenos días", "Buenas tardes", "Hola, ¿cómo estás?", "¿Qué tal?"],
+        "responses": ["¡Hola! ¿En qué puedo ayudarte?", "Hola, ¿cómo puedo asistirte hoy?", "¡Hola! ¿Cómo estás?"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Nos vemos", "Hasta luego","bay", "bye", "Chao"],
+        "responses": ["Adiós, ¡que tengas un buen día!", "Hasta luego, cuídate.", "Nos vemos pronto."]
+      },
+      {
+        "tag": "presentacion",
+        "patterns": ["¿quien eres?","¿que haces?","¿que es lo que haces?"],
+        "responses": [
+          "hola, soy tu chat asistente, pudes hacerme preguntas relacionadas con tu detector de CO2",
+          "soy capaz de proporcionarte respuestas a tus problemas relacionadas a tu dector de CO2"
+          
+        ]
+      },
+      {
+        "tag": "funcionamiento",
+        "patterns": ["¿Cómo funciona el detector de CO2?", "Explícame el funcionamiento del detector de CO2", "¿Qué hace el detector de CO2?", "Para que sirve el detector e CO2?"],
+        "responses": [
+          "El detector de CO2 mide la concentración de dióxido de carbono en el aire y emite una alerta si los niveles son demasiado altos.",
+          "Nuestro detector de CO2 utiliza un sensor de calidad de aire para medir la cantidad de dióxido de carbono en el aire.",
+          "El detector de CO2 monitorea continuamente el aire y te avisa si hay niveles peligrosos de CO2."
+        ]
+      },
+      {
+        "tag": "seguridad",
+        "patterns": ["¿Es seguro el detector de CO2?", "¿Cuán seguro es el detector de CO2?", "¿Es fiable el detector de CO2?"],
+        "responses": [
+          "Sí, el detector de CO2 es seguro y fiable. Está diseñado para alertarte cuando los niveles de CO2 son peligrosos.",
+          "Nuestro detector de CO2 ha pasado por rigurosas pruebas de seguridad y es altamente fiable.",
+          "El detector es seguro de usar y te proporcionará alertas precisas sobre los niveles de CO2."
+        ]
+      },
+      {
+        "tag": "niveles_CO2",
+        "patterns": ["¿Cuáles son los niveles seguros de CO2?", "¿Qué nivel de CO2 es peligroso?", "¿Cuándo debería preocuparme por el CO2?"],
+        "responses": [
+          "Los niveles seguros de CO2 en interiores son generalmente menos de 1000 ppm (partes por millón). Niveles por encima de 2000 ppm pueden ser peligrosos.",
+          "Un nivel de CO2 por encima de 1000 ppm puede ser una señal de mala ventilación. Por encima de 2000 ppm es considerado peligroso.",
+          "Debes preocuparte si los niveles de CO2 superan los 1000 ppm, ya que esto puede afectar tu bienestar y productividad."
+        ]
+      },
+      {
+        "tag": "prevencion",
+        "patterns": ["¿Cómo puedo prevenir niveles altos de CO2?", "¿Qué debo hacer para mantener bajos los niveles de CO2?", "Consejos para reducir el CO2"],
+        "responses": [
+          "Para prevenir niveles altos de CO2, asegúrate de ventilar bien los espacios cerrados, usa purificadores de aire y revisa regularmente tu detector de CO2.",
+          "Mantén una buena ventilación abriendo ventanas y puertas, y considera utilizar plantas de interior que ayudan a reducir el CO2.",
+          "Revisa regularmente los sistemas de ventilación y utiliza purificadores de aire para mantener los niveles de CO2 bajos."
+        ]
+      },
+      {
+        "tag": "mantenimiento",
+        "patterns": ["¿Cómo mantengo el detector de CO2?", "¿Qué mantenimiento necesita el detector de CO2?", "Mantenimiento del detector de CO2"],
+        "responses": [
+          "El detector de CO2 requiere una limpieza regular del sensor y una prueba mensual para asegurar su correcto funcionamiento.",
+          "Sigue las instrucciones del fabricante para limpiar y calibrar el detector regularmente.",
+          "Revisa el detector mensualmente y reemplaza las baterías según las recomendaciones del fabricante."
+        ]
+      },
+      {
+        "tag": "greeting2",
+        "patterns": ["Hola", "Buenos días", "Buenas tardes", "Hola, ¿cómo estás?", "¿Qué tal?"],
+        "responses": ["¡Hola! ¿En qué puedo ayudarte?", "Hola, ¿cómo puedo asistirte hoy?", "¡Hola! ¿Cómo estás?"]
+      },
+      {
+        "tag": "despedida2",
+        "patterns": ["Adiós", "Nos vemos", "Hasta luego", "Chao"],
+        "responses": ["Adiós, ¡que tengas un buen día!", "Hasta luego, cuídate.", "Nos vemos pronto."]
+      },
+      {
+        "tag": "presentacion2",
+        "patterns": ["¿Quién eres?", "¿Qué haces?", "¿Qué es lo que haces?"],
+        "responses": [
+          "Hola, soy tu asistente virtual para el detector de CO2. Puedes hacerme preguntas relacionadas con el funcionamiento y mantenimiento del detector.",
+          "Soy capaz de proporcionarte respuestas a tus preguntas sobre el detector de CO2 y cómo mantenerlo en buen estado."
+        ]
+      },
+      {
+        "tag": "funcionamiento2",
+        "patterns": ["¿Cómo funciona el detector de CO2?", "Explícame el funcionamiento del detector de CO2", "¿Qué hace el detector de CO2?", "¿Para qué sirve el detector de CO2?"],
+        "responses": [
+          "El detector de CO2 mide la concentración de dióxido de carbono en el aire y emite una alerta si los niveles son demasiado altos.",
+          "Nuestro detector de CO2 utiliza un sensor para medir la cantidad de dióxido de carbono en el aire y garantizar un ambiente seguro.",
+          "El detector de CO2 monitorea continuamente el aire y te avisa si los niveles de CO2 alcanzan valores peligrosos."
+        ]
+      },
+      {
+        "tag": "seguridad2",
+        "patterns": ["¿Es seguro el detector de CO2?", "¿Cuán seguro es el detector de CO2?", "¿Es fiable el detector de CO2?"],
+        "responses": [
+          "Sí, el detector de CO2 es seguro y fiable. Está diseñado para alertarte cuando los niveles de CO2 son peligrosos.",
+          "Nuestro detector de CO2 ha pasado rigurosas pruebas de seguridad y es altamente confiable.",
+          "El detector es seguro de usar y proporciona alertas precisas sobre los niveles de CO2."
+        ]
+      },
+      {
+        "tag": "niveles_CO22",
+        "patterns": ["¿Cuáles son los niveles seguros de CO2?", "¿Qué nivel de CO2 es peligroso?", "¿Cuándo debería preocuparme por el CO2?"],
+        "responses": [
+          "Los niveles seguros de CO2 en interiores son generalmente menos de 1000 ppm (partes por millón). Niveles por encima de 2000 ppm pueden ser peligrosos.",
+          "Un nivel de CO2 por encima de 1000 ppm puede indicar mala ventilación. Niveles superiores a 2000 ppm son considerados peligrosos.",
+          "Debes preocuparte si los niveles de CO2 superan los 1000 ppm, ya que esto puede afectar tu bienestar y productividad."
+        ]
+      },
+      {
+        "tag": "prevencion2",
+        "patterns": ["¿Cómo puedo prevenir niveles altos de CO2?", "¿Qué debo hacer para mantener bajos los niveles de CO2?", "Consejos para reducir el CO2"],
+        "responses": [
+          "Para prevenir niveles altos de CO2, asegúrate de ventilar bien los espacios cerrados, usa purificadores de aire y revisa regularmente tu detector de CO2.",
+          "Mantén una buena ventilación abriendo ventanas y puertas, y considera usar plantas de interior que ayudan a reducir el CO2.",
+          "Revisa los sistemas de ventilación y utiliza purificadores de aire para mantener los niveles de CO2 bajos."
+        ]
+      },
+      {
+        "tag": "mantenimiento2",
+        "patterns": ["¿Cómo mantengo el detector de CO2?", "¿Qué mantenimiento necesita el detector de CO2?", "Mantenimiento del detector de CO2"],
+        "responses": [
+          "El detector de CO2 requiere una limpieza regular del sensor y una prueba mensual para asegurar su correcto funcionamiento.",
+          "Sigue las instrucciones del fabricante para limpiar y calibrar el detector regularmente.",
+          "Revisa el detector mensualmente y reemplaza las baterías según las recomendaciones del fabricante."
+        ]
+      },
+      {
+        "tag": "ns",
+        "patterns": ["", "¿Qué mantenimiento necesita el detector de CO2?", "Mantenimiento del detector de CO2"],
+        "responses": [
+          
+        ]
+      }
+    ]
+  }
+    
+  
