@@ -17,10 +17,10 @@ st.title("🤖 Asistente virtual")
 lemmatizer = WordNetLemmatizer()
 
 # Cargar datos del archivo JSON y el modelo entrenado
-with open('D:/users/kevin/phyton/chat_bot/intents.json', 'r', encoding='utf-8') as file:
+with open('intents.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
-model = load_model('d:/users/kevin/phyton/chat_bot/chatbot_model.h5')
+model = load_model('chatbot_model.h5')
 
 # Preparar las palabras y clases
 words = []
